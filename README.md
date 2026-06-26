@@ -42,7 +42,7 @@ TrabalhoRedes.ipynb
 2. Abra o arquivo:
 
 ```text
-TrabalhoRedesComplexas.ipynb
+TrabalhoRedes.ipynb
 ```
 
 3. Atualize os caminhos de leitura dos arquivos para apontarem para o diretório correspondente no Google Drive.
