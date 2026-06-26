@@ -1,38 +1,51 @@
 # RedesComplexas
 
-1. Clonar o Repositório e Acessar a Pasta
-No seu terminal, execute o comando abaixo para clonar o projeto e navegar até o diretório:
+## Instalação e Execução
 
-Bash
+### 1. Acesse o repositório
+
+Clone o repositório ou faça o download do projeto:
+
+```bash
 git clone https://github.com/VanessaMSilva/Trabalho---Redes-Complaxas.git
-cd Trabalho---Redes-Complaxas
-2. Instalar as Dependências (Recomendado)
-Para garantir que você tenha todas as bibliotecas necessárias (como networkx, pandas, matplotlib, etc.), você pode instalar via pip:
+```
 
-Bash
-pip install -r requirements.txt
-(Caso não tenha um arquivo requirements.txt criado, você pode instalar as principais rodando: pip install pandas networkx matplotlib matplotlib-inline notebook)
+Ou acesse o repositório no GitHub:
 
-3. Execução do Ambiente
-Escolha uma das opções abaixo para rodar o notebook:
+**https://github.com/VanessaMSilva/Trabalho---Redes-Complaxas**
 
-Opção A: Via Jupyter Notebook (Local)
-Inicie o Jupyter localmente com o comando:
+### 2. Baixe os arquivos
 
-Bash
-jupyter notebook
-Após o navegador abrir, localize e execute o arquivo principal do projeto: TrabalhoRedes.ipynb (ou o arquivo correspondente). No menu superior, clique em Cell > Run All.
+Caso não utilize o Git, clique em **Code → Download ZIP** para baixar o código-fonte e os conjuntos de dados.
 
-Opção B: Via Google Colab (Nuvem)
-Faça o download do repositório como ZIP (ou use a pasta clonada).
+### 3. Extraia os arquivos
 
-Faça o upload da pasta para o seu Google Drive.
+Descompacte o arquivo `.zip` em um diretório de sua preferência.
 
-Abra o arquivo TrabalhoRedesComplexas.ipynb no ambiente do Colab.
+### 4. Execute o projeto
 
-Caso necessário, monte o seu Drive na primeira célula do notebook para ler os conjuntos de dados:
+#### Opção 1 – Jupyter Notebook (Recomendado)
 
-Python
-from google.colab import drive
-drive.mount('/content/drive')
-No menu superior do Colab, clique em Ambiente de Execução > Executar tudo (ou use o atalho Ctrl + F9).
+1. Abra o Jupyter Notebook.
+2. Navegue até a pasta do projeto.
+3. Abra o arquivo:
+
+```text
+TrabalhoRedes.ipynb
+```
+
+4. Execute todas as células em sequência (**Run All Cells**).
+
+#### Opção 2 – Google Colab
+
+1. Faça o upload da pasta descompactada para o seu Google Drive.
+2. Abra o arquivo:
+
+```text
+TrabalhoRedesComplexas.ipynb
+```
+
+3. Atualize os caminhos de leitura dos arquivos para apontarem para o diretório correspondente no Google Drive.
+4. Execute todas as células utilizando **Runtime → Run all** (ou **Executar tudo**).
+
+> **Observação:** Certifique-se de que todos os arquivos de dados estejam na mesma estrutura de pastas esperada pelo notebook para evitar erros de leitura.
